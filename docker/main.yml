@@ -14,9 +14,3 @@
         image: test:latest
         name: test
         state: started
-      
-    - name: Run the test container. 
-      docker:
-        image: test:latest
-        name: test
-        state: running
